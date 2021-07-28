@@ -12,11 +12,11 @@ data_loader_numworkers = 8
 class_num = 2
 
 # path
-train_path = "./data/train_index.txt"
-val_path = "./data/val_index.txt"
-test_path = "./data/test_index_demo.txt"
+train_path = "../Tensorflow/LaneDetectionCode/data/train_index_.txt"
+val_path = "../Tensorflow/LaneDetectionCode/data/val_index_test.txt"
+test_path = "../Tensorflow/LaneDetectionCode/data/test_index_demo.txt"
 save_path = "./save/result/"
-pretrained_path='./pretrained/unetlstm.pth'
+pretrained_path='../Tensorflow/LaneDetectionCode/pretrained/unetlstm.pth'
 
 # weight
 class_weight = [0.02, 1.02]
